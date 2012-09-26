@@ -1,0 +1,11 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Light" >
+    </style>
+    <color name="row_background">#000000</color>
+    <color name="row_text_color">#FFFFFF</color>
+    <dimen name="title_row_size">16sp</dimen>
+    <color name="row_divider_color">#FF0000</color>
+    <color name="list_pressed_color">#FFFFE0</color>
+
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <EditTextPreference
+        android:key="@string/pref_hostname"
+        android:summary="@string/prefs_hostname_description"
+        android:title="@string/pref_hostname" />
+    <EditTextPreference
+        android:inputType="number"
+        android:key="@string/prefs_port"
+        android:summary="@string/prefs_port_descripton"
+        android:title="@string/prefs_port" />
+    <ListPreference
+        android:entries="@array/interval"
+        android:entryValues="@array/intervalValues"
+        android:key="@string/prefs_refresh_interval"
+        android:summary="@string/prefs_interval_desc"
+        android:title="@string/prefs_interval_title" />
+    <ListPreference
+        android:key="@string/prefs_calendar"
+        android:summary="@string/prefs_calendar_desc"
+        android:title="@string/prefs_calendar"/>
+
+</PreferenceScreen>

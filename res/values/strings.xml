@@ -1,0 +1,50 @@
+<resources>
+
+    <string name="app_name">EventManager</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_event_list">Appointments</string>
+    <string name="menu_calendar">Calendar</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="pref_hostname">Hostname</string>
+    <string name="prefs_hostname_description">Enter Hostname or ip address of webservice</string>
+    <string name="prefs_port">Port</string>
+    <string name="prefs_port_descripton">Enter port address of web service</string>
+    <string name="send_eventlist_notifications_permission_label">Sends New Event Notifications</string>
+    <string name="send_eventlist_notifications_permission_description">Allow this application to send New Event
+    notifications to other applications</string>
+    <string name="receive_eventlist_notifications_permission_label">Receive New Event Notifications</string>
+    <string name="receive_eventlist_notifications_permission_description">Allow this application to receive New Event
+    notifications from other applications</string>
+    <string name="prefs_refresh_interval">Interval</string>
+    <string name="prefs_interval_title">Refresh Interval</string>
+    <string name="prefs_interval_desc">Specify interval for refreshing the data from web service</string>
+    <string name="title">Todays Appointments</string>
+    <string name="prefs_calendar">Calendar</string>
+    <string name="prefs_calendar_desc">Select Calendar to manage events</string>
+    <string name="error_ok">OK</string>
+    <string name="no_network_msg">No Data Connection Available, Please retry later!</string>
+    <string name="SEND_EVENT_PERMISSION">com.julius.eventmanager.SEND_EVENTLIST_NOTIFICATIONS</string>
+    <string name="RECEIVE_EVENT_PERMISSION">com.julius.eventmanager.RECEIVE_EVENTLIST_NOTIFICATIONS</string>
+
+    <string-array name="interval">
+        <item>Never</item>
+        <item>1 Minute</item>
+        <item>Fifteen minutes</item>
+        <item>Half hour</item>
+        <item>An hour</item>
+        <item>Half day</item>
+        <item>Day</item>
+    </string-array>
+    <string-array name="intervalValues">
+        <item>0</item>
+        <item>60000</item>
+        <item>900000</item>
+        <item>1800000</item>
+        <item>3600000</item>
+        <item>43200000</item>
+        <item>86400000</item>
+    </string-array>
+        <string name="empty_list_text">No Appointments Today!</string>
+
+</resources>
